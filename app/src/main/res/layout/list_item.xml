@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/imgview"
+        android:text="Adelle #1020"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/model"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/imgview"
+        android:text="Այս ուղղանկյունաձև փայտյա տուփի վրա նախատեսած է գրատախտակ որտեղ կարող եք գրել ձեր ցանկությունը։ Տուփը պարունակում է ծաղկային կոմպոզիցիա և շվեցարական շոկոլադ"
+        android:textColor="#e6e6e6"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/info1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/imgview"
+        android:background="#e6e6e6"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgview"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:text="Արժեք: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/gin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgview"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:text="54000 դրամ "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <Button
+        android:id="@+id/btnbuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/imgview"
+        android:layout_marginRight="10dp"
+        android:text="Գնել"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/gin"
+        android:layout_marginTop="13dp"
+        android:background="#e6e6e6" />
+</RelativeLayout>

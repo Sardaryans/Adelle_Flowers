@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.nare.adelle.MainActivity">
+
+
+    <TextView
+        android:id="@+id/btntesak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="ՄԵՐ ՏԵՍԱԿԱՆԻՆ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/btnmermasin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntesak"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="ՄԵՐ ՄԱՍԻՆ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/btncarayutyun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmermasin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="ՄԵՐ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԸ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/btnkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btncarayutyun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="ԿԱՊԸ ՄԵԶ ՀԵՏ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+</RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.nare.adelle.Info_Activity">
+
+    <TextView
+        android:id="@+id/mermasin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ՄԵՐ ՄԱՍԻՆ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/gic"
+        android:layout_width="90dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mermasin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#cecdcd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/gic"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=" Նրբաճաշակության փունջ: Շատերը կարծում են, որ ծաղիկներ նվիրելը արդեն վաղուց ի վեր նորաձև չէ, սակայն մեր արտադրանքը եկել է կոտրելու բոլոր կարծրատիպերը: Մեր գլխավոր նպատակն է ստեղծել հիշարժան, ժամանակակից և նորաձև կոմպոզիցիաներ՝ համադրելով դասականը յուրօրինակի հետ: Մեր արտադրանքը նոր գույներով կլցնի ձեր առօրյան: Մեր ձեռագործ տուփերում դուք կգտնեք արևելքի ու արևմոուտքի մշակույթների համադրությունը՝ դասական եվրոպականը համեմված արևելյան շքեղ տարրերով: Adelle-ի հասցեատերը իրեն կզգա կարևոր և գնահատված: Անկախ նրանից՝ խոսքը վերաբերում է աշխատանքին թե անձնական կյանքին, ծննդյան տարեդարձին թե գործնական միջոցառմանը Adelle-ի ծաղկային կոմպոզիցիաները կատարյալ միջոց են զարմացնելու և ձեր սիրելիներին, գործընկերներին ցուցաբերելու ձեր նվիրվածությունը: Տուփերից յուրաքանչյուրը անցել է ձեռքի մշակում, պարունակում է բաձրորակ վարդեր, ծաղկային կոմպոզիցիաներ, շոկոլադ՝ բավարարելով անգամ ամենաքմահաճ հաճախորդի պահանջները: Մենք հավատում ենք, որ յուրաքանչյուրը արժանի է շքեղության:"
+        android:textColor="#e6e6e6" />
+
+
+</RelativeLayout>
+

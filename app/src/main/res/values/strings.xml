@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Adelle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_kap_">Kap_Activity</string>
+    <string name="title_activity_service_">Service_Activity</string>
+</resources>

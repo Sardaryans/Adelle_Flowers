@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.nare.adelle.Service_Activity">
+
+    <TextView
+        android:id="@+id/mercar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ՄԵՐ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԸ"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/gic1"
+        android:layout_width="90dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mercar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#cecdcd" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gic1"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:text="*Դիզայնավորում-Մոդելավորում"
+        android:textColor="#e6e6e6"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="  Մեր առաջարկած կոմպոզիցիաները իրենց ուրույն տեղը ունեն` դասականը և արդիականը համադրող մարդկանց աչքերում։"
+        android:textColor="#e6e6e6"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="*Արագ Արձագանքում"
+        android:textColor="#e6e6e6"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="  Մեր արագ և որակյալ աշխատանքի շնորհիվ ձեր նախընտրած կոմպոզիցիան պատրաստ կլինի առավելագույնս կարճ ժամանակահատվածում։"
+        android:textColor="#e6e6e6"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t4"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:text="*Առաքում"
+        android:textColor="#e6e6e6"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t5"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="  Ձեր ցանկությամբ պատվերը կարող է առաքվել ձեր նշված հասցեով. Երևանի տարածքում` անվճար։"
+        android:textColor="#e6e6e6"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>
+

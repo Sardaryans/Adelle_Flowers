@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.nare.adelle.Nkar">
+
+    <ImageView
+        android:id="@+id/nkarinfo"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/b" />
+
+    <TextView
+        android:id="@+id/modelnkar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nkarinfo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Adelle #1020"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/arjeqnkar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modelnkar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Արժեք: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+    <TextView
+        android:id="@+id/ginnkar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modelnkar"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/arjeqnkar"
+        android:text="54000 դրամ "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#e6e6e6" />
+
+
+</RelativeLayout>

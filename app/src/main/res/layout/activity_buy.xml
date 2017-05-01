@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:paddingLeft="12dp"
+    android:paddingTop="12dp"
+    tools:context="com.example.nare.adelle.Buy">
+
+    <ImageView
+        android:id="@+id/wappbuy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wapp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/wappbuy"
+        android:text="+374(44)71-71-11"
+        android:textColor="#e6e6e6"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/viberbuy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/wappbuy"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/viber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wappbuy"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@id/wappbuy"
+        android:text="+374(44)71-71-11"
+        android:textColor="#e6e6e6"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/phonebuy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/viberbuy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/phone" />
+
+</RelativeLayout>
